@@ -1,0 +1,26 @@
+?- consult(['c:/Users/zinab/Desktop/Prolog labs/ZainabAdnan.pl']).
+true.
+
+ ?- father(adnan, fatimah).
+true.
+
+ ?- father(adnan, yousif).
+false.
+
+ ?-  mother(ghalia, mohammad).
+true.
+
+ ?- mother(fatimah, kawthar).
+true.
+
+ ?- brother(hashim, ali).
+true .
+
+ ?- brother(mohammad, yousif).
+false.
+
+ ?- sister(zainab, ghala).
+false.
+
+ ?- sister(kawthar, zahra).
+true.
